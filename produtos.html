@@ -7,27 +7,26 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
   >
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header class="topo">
-    <div class="container py-4">
-      <h1 class="m-0">Scania Caminhões</h1>
-      <p class="m-0">Conheça os modelos disponíveis em nossa linha.</p>
-    </div>
-  </header>
-
-  <nav class="navbar navbar-expand-lg navbar-dark menu-principal">
+  <nav class="navbar navbar-expand-lg navbar-dark menu-principal sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">Scania</a>
+      <a class="navbar-brand fw-bold" href="index.html">
+        <i class="bi bi-truck-front-fill"></i> Scania
+      </a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
         <span class="navbar-toggler-icon"></span>
@@ -49,12 +48,23 @@
     </div>
   </nav>
 
+  <header class="topo">
+    <div class="container">
+      <span class="badge-line">
+        <i class="bi bi-list-check"></i> Linha completa
+      </span>
+      <h1 class="m-0">Modelos Scania</h1>
+      <p class="m-0">Confira a tabela com os principais modelos disponíveis, categorias e preços de tabela.</p>
+    </div>
+  </header>
+
   <main class="container my-5">
-    <section>
-      <h2 class="titulo-secao mb-4">Tabela de modelos</h2>
+    <section class="reveal">
+      <h2 class="titulo-secao mb-2">Tabela de modelos</h2>
+      <p class="subtitulo">Selecione o caminhão ideal para sua operação — do segmento médio ao extrapesado.</p>
 
       <div class="table-responsive">
-        <table class="table table-striped table-hover align-middle tabela-personalizada">
+        <table class="table table-hover align-middle tabela-personalizada mb-0">
           <thead>
             <tr>
               <th scope="col">Código</th>
@@ -68,37 +78,37 @@
             <tr>
               <td>001</td>
               <td>Scania R 450</td>
-              <td>Extrapesado</td>
+              <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 720.000,00</td>
-              <td>8</td>
+              <td><span class="estoque-pill">8 unid.</span></td>
             </tr>
             <tr>
               <td>002</td>
               <td>Scania S 540</td>
-              <td>Extrapesado</td>
+              <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 890.000,00</td>
-              <td>4</td>
+              <td><span class="estoque-pill baixo">4 unid.</span></td>
             </tr>
             <tr>
               <td>003</td>
               <td>Scania G 410</td>
-              <td>Semipesado</td>
+              <td><span class="badge-categoria semi">Semipesado</span></td>
               <td>R$ 620.000,00</td>
-              <td>11</td>
+              <td><span class="estoque-pill">11 unid.</span></td>
             </tr>
             <tr>
               <td>004</td>
               <td>Scania P 320</td>
-              <td>Médio</td>
+              <td><span class="badge-categoria medio">Médio</span></td>
               <td>R$ 480.000,00</td>
-              <td>15</td>
+              <td><span class="estoque-pill">15 unid.</span></td>
             </tr>
             <tr>
               <td>005</td>
               <td>Scania R 500</td>
-              <td>Extrapesado</td>
+              <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 815.000,00</td>
-              <td>6</td>
+              <td><span class="estoque-pill">6 unid.</span></td>
             </tr>
           </tbody>
         </table>
@@ -107,8 +117,38 @@
   </main>
 
   <footer class="rodape">
-    <div class="container py-4 text-center">
-      <p class="m-0">Scania Caminhões — Líder em transporte pesado no Brasil e no mundo.</p>
+    <div class="container">
+      <div class="row g-4 pb-3">
+        <div class="col-md-5">
+          <h6><i class="bi bi-truck-front-fill text-warning"></i> Scania Caminhões</h6>
+          <p class="small">Há mais de um século movendo o mundo com caminhões que entregam performance, segurança e baixo custo operacional.</p>
+          <div class="social mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <h6>Navegação</h6>
+          <ul class="list-unstyled small">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="produtos.html">Modelos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4">
+          <h6>Contato</h6>
+          <ul class="list-unstyled small">
+            <li><i class="bi bi-geo-alt"></i> São Bernardo do Campo, SP</li>
+            <li><i class="bi bi-telephone"></i> 0800 019 4224</li>
+            <li><i class="bi bi-envelope"></i> contato@scania.com.br</li>
+          </ul>
+        </div>
+      </div>
+      <div class="rodape-base">
+        © 2025 Scania Caminhões — Todos os direitos reservados.
+      </div>
     </div>
   </footer>
 
