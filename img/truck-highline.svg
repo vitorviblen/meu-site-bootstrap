@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#88b4dc"/>
+      <stop offset="1" stop-color="#cfe2f4"/>
+    </linearGradient>
+    <linearGradient id="cab" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#dde4ee"/>
+    </linearGradient>
+    <linearGradient id="road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a4654"/>
+      <stop offset="1" stop-color="#1f2733"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="430" fill="url(#sky)"/>
+  <!-- Distant hills -->
+  <path d="M 0 360 Q 200 300 400 330 T 800 320 T 1200 340 L 1200 430 L 0 430 Z" fill="#000" opacity="0.15"/>
+  <!-- Sun -->
+  <circle cx="1050" cy="110" r="55" fill="#f5b400" opacity="0.85"/>
+  <circle cx="1050" cy="110" r="80" fill="#f5b400" opacity="0.18"/>
+
+  <!-- Road -->
+  <rect x="0" y="430" width="1200" height="170" fill="url(#road)"/>
+  <rect x="0" y="428" width="1200" height="5" fill="#94a4b8"/>
+  <!-- Road markings -->
+  <g fill="#f5b400">
+    <rect x="40"   y="530" width="70" height="7"/>
+    <rect x="220"  y="530" width="70" height="7"/>
+    <rect x="400"  y="530" width="70" height="7"/>
+    <rect x="580"  y="530" width="70" height="7"/>
+    <rect x="760"  y="530" width="70" height="7"/>
+    <rect x="940"  y="530" width="70" height="7"/>
+    <rect x="1120" y="530" width="70" height="7"/>
+  </g>
+
+  <!-- Truck shadow -->
+  <ellipse cx="610" cy="495" rx="460" ry="14" fill="#000" opacity="0.35"/>
+
+  <!-- Trailer -->
+  <rect x="540" y="215" width="510" height="225" fill="#003478" stroke="#a8b3c4" stroke-width="2"/>
+  <rect x="540" y="215" width="510" height="45" fill="#000" opacity="0.06"/>
+  <line x1="540" y1="260" x2="1050" y2="260" stroke="#a8b3c4" stroke-width="2"/>
+  <line x1="790" y1="260" x2="790" y2="440" stroke="#a8b3c4" stroke-width="2"/>
+  <text x="595" y="360" font-family="Arial Black, Helvetica, sans-serif" font-size="62" font-weight="900" fill="#ffffff" letter-spacing="6">SCANIA</text>
+  <rect x="540" y="400" width="510" height="8" fill="#e30613"/>
+
+  <!-- Cab -->
+  <path d="M 200 440 L 200 260 Q 200 230 230 230 L 380 230 Q 410 230 410 260 L 410 290 L 540 290 L 540 440 Z" fill="url(#cab)"/>
+  <!-- Roof shadow -->
+  <path d="M 200 260 Q 200 230 230 230 L 380 230 Q 410 230 410 260 L 410 280 L 200 280 Z" fill="#000" opacity="0.18"/>
+  <!-- Windshield -->
+  <path d="M 225 252 L 380 252 L 395 295 L 220 295 Z" fill="#cfe6f7" opacity="0.9"/>
+  <!-- Side window -->
+  <rect x="420" y="298" width="105" height="52" fill="#cfe6f7" opacity="0.9"/>
+  <!-- Door line -->
+  <line x1="410" y1="290" x2="410" y2="440" stroke="#000" stroke-width="3" opacity="0.55"/>
+  <rect x="416" y="368" width="22" height="7" fill="#000" opacity="0.55"/>
+  <!-- Red trim on cab -->
+  <rect x="200" y="287" width="340" height="7" fill="#e30613"/>
+  <!-- Headlight -->
+  <rect x="200" y="335" width="22" height="42" fill="#fff5d6" stroke="#000" stroke-width="2" opacity="0.95" rx="3"/>
+  <circle cx="211" cy="350" r="4" fill="#f5b400"/>
+  <circle cx="211" cy="368" r="4" fill="#f5b400"/>
+  <!-- Grille -->
+  <rect x="200" y="382" width="42" height="50" fill="#1a1a1a"/>
+  <line x1="205" y1="392" x2="240" y2="392" stroke="#555" stroke-width="2"/>
+  <line x1="205" y1="402" x2="240" y2="402" stroke="#555" stroke-width="2"/>
+  <line x1="205" y1="412" x2="240" y2="412" stroke="#555" stroke-width="2"/>
+  <line x1="205" y1="422" x2="240" y2="422" stroke="#555" stroke-width="2"/>
+  <!-- Side mirror -->
+  <rect x="194" y="265" width="12" height="38" fill="#000" opacity="0.7"/>
+  <rect x="176" y="265" width="22" height="22" fill="#000" opacity="0.8"/>
+  <!-- Bumper -->
+  <rect x="195" y="425" width="55" height="20" fill="#1a1a1a"/>
+  <!-- SCANIA text on cab -->
+  <text x="445" y="335" font-family="Arial Black, Helvetica, sans-serif" font-size="22" font-weight="900" fill="#ffffff" letter-spacing="3" opacity="0.95">SCANIA</text>
+
+  <!-- Wheels -->
+  <g>
+    <circle cx="280" cy="455" r="40" fill="#111"/>
+    <circle cx="280" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="280" cy="455" r="9" fill="#888"/>
+    <line x1="280" y1="435" x2="280" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="260" y1="455" x2="300" y2="455" stroke="#888" stroke-width="3"/>
+
+    <circle cx="430" cy="455" r="40" fill="#111"/>
+    <circle cx="430" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="430" cy="455" r="9" fill="#888"/>
+    <line x1="430" y1="435" x2="430" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="410" y1="455" x2="450" y2="455" stroke="#888" stroke-width="3"/>
+
+    <circle cx="510" cy="455" r="40" fill="#111"/>
+    <circle cx="510" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="510" cy="455" r="9" fill="#888"/>
+    <line x1="510" y1="435" x2="510" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="490" y1="455" x2="530" y2="455" stroke="#888" stroke-width="3"/>
+
+    <circle cx="780" cy="455" r="40" fill="#111"/>
+    <circle cx="780" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="780" cy="455" r="9" fill="#888"/>
+    <line x1="780" y1="435" x2="780" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="760" y1="455" x2="800" y2="455" stroke="#888" stroke-width="3"/>
+
+    <circle cx="870" cy="455" r="40" fill="#111"/>
+    <circle cx="870" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="870" cy="455" r="9" fill="#888"/>
+    <line x1="870" y1="435" x2="870" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="850" y1="455" x2="890" y2="455" stroke="#888" stroke-width="3"/>
+
+    <circle cx="990" cy="455" r="40" fill="#111"/>
+    <circle cx="990" cy="455" r="24" fill="#3a3a3a"/>
+    <circle cx="990" cy="455" r="9" fill="#888"/>
+    <line x1="990" y1="435" x2="990" y2="475" stroke="#888" stroke-width="3"/>
+    <line x1="970" y1="455" x2="1010" y2="455" stroke="#888" stroke-width="3"/>
+  </g>
+
+  <!-- Model label -->
+  <g transform="translate(40, 540)">
+    <rect x="0" y="0" width="220" height="42" rx="8" fill="rgba(4,30,66,0.85)"/>
+    <text x="16" y="28" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="700" fill="#f5b400">Cabine Highline</text>
+  </g>
+</svg>

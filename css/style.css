@@ -59,7 +59,7 @@ body {
   padding: 5rem 0 6rem;
   background:
     linear-gradient(120deg, rgba(4, 30, 66, 0.92) 30%, rgba(0, 52, 120, 0.78) 100%),
-    url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/R450_SCANIA%2C_Streamline%2C_truckrun_2016.JPG/1600px-R450_SCANIA%2C_Streamline%2C_truckrun_2016.JPG') center/cover no-repeat;
+    url('../img/hero.svg') center/cover no-repeat;
   overflow: hidden;
   isolation: isolate;
 }
