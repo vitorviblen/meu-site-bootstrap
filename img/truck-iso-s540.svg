@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Scania S 540 highline azul escuro com glow neon">
+  <defs>
+    <radialGradient id="bgS" cx="50%" cy="50%" r="80%">
+      <stop offset="0%" stop-color="#001a33"/>
+      <stop offset="55%" stop-color="#05101f"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="cabHi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2a55"/>
+      <stop offset="50%" stop-color="#031733"/>
+      <stop offset="100%" stop-color="#000814"/>
+    </linearGradient>
+    <linearGradient id="cabHiSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#000814"/>
+      <stop offset="60%" stop-color="#031733"/>
+      <stop offset="100%" stop-color="#0a2a55"/>
+    </linearGradient>
+    <linearGradient id="cabHiRoof" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0e3b6f"/>
+      <stop offset="100%" stop-color="#031733"/>
+    </linearGradient>
+    <linearGradient id="boxS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2a55"/>
+      <stop offset="45%" stop-color="#031733"/>
+      <stop offset="100%" stop-color="#000814"/>
+    </linearGradient>
+    <linearGradient id="boxSSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#031733"/>
+      <stop offset="100%" stop-color="#000814"/>
+    </linearGradient>
+    <linearGradient id="boxSTop" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#163f7f"/>
+      <stop offset="100%" stop-color="#0a2a55"/>
+    </linearGradient>
+    <linearGradient id="windS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000814"/>
+      <stop offset="50%" stop-color="#003478"/>
+      <stop offset="100%" stop-color="#00d4ff"/>
+    </linearGradient>
+    <linearGradient id="tireS" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2f3a"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+    <radialGradient id="rimS" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="50%" stop-color="#003478"/>
+      <stop offset="100%" stop-color="#000814"/>
+    </radialGradient>
+    <radialGradient id="headS" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#bff2ff"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b1"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="7" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlowS" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadowS"><feGaussianBlur stdDeviation="12"/></filter>
+    <pattern id="dotsS" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#00d4ff" fill-opacity="0.22"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bgS)"/>
+  <rect width="1200" height="700" fill="url(#dotsS)"/>
+
+  <!-- ambient neon horizon glow -->
+  <ellipse cx="600" cy="430" rx="700" ry="50" fill="#00d4ff" opacity="0.08" filter="url(#shadowS)"/>
+
+  <g stroke="#00d4ff" stroke-opacity="0.12" fill="none">
+    <line x1="0" y1="570" x2="1200" y2="450"/>
+    <line x1="0" y1="610" x2="1200" y2="490"/>
+    <line x1="0" y1="650" x2="1200" y2="530"/>
+    <line x1="100" y1="700" x2="1100" y2="430"/>
+  </g>
+
+  <ellipse cx="620" cy="600" rx="450" ry="32" fill="#000" opacity="0.85" filter="url(#shadowS)"/>
+  <ellipse cx="620" cy="610" rx="380" ry="14" fill="#00d4ff" opacity="0.20" filter="url(#shadowS)"/>
+
+  <!-- BOX trailer (slightly taller for highline) -->
+  <g>
+    <polygon points="610,170 1080,170 1130,220 660,220" fill="url(#boxSTop)"/>
+    <polygon points="660,220 1130,220 1130,520 660,520" fill="url(#boxS)"/>
+    <polygon points="1130,220 1180,250 1180,490 1130,520" fill="url(#boxSSide)"/>
+    <g stroke="#0e3b6f" stroke-width="0.6" stroke-opacity="0.8">
+      <line x1="760" y1="220" x2="760" y2="520"/>
+      <line x1="860" y1="220" x2="860" y2="520"/>
+      <line x1="960" y1="220" x2="960" y2="520"/>
+      <line x1="1060" y1="220" x2="1060" y2="520"/>
+    </g>
+    <!-- neon trim -->
+    <line x1="660" y1="225" x2="1130" y2="225" stroke="#00d4ff" stroke-width="1.2" filter="url(#neonGlow)" opacity="0.9"/>
+    <line x1="660" y1="515" x2="1130" y2="515" stroke="#00d4ff" stroke-width="1.2" filter="url(#neonGlow)" opacity="0.9"/>
+    <line x1="1130" y1="225" x2="1180" y2="255" stroke="#00d4ff" stroke-width="1.2" filter="url(#neonGlow)" opacity="0.7"/>
+    <line x1="1130" y1="515" x2="1180" y2="490" stroke="#00d4ff" stroke-width="1.2" filter="url(#neonGlow)" opacity="0.7"/>
+
+    <!-- SCANIA logo (cyan glow) -->
+    <text x="890" y="370" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="72" font-weight="900" fill="#00d4ff" letter-spacing="6" filter="url(#softGlowS)">SCANIA</text>
+    <text x="890" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#bff2ff" letter-spacing="6">S 540 - HIGHLINE</text>
+    <rect x="660" y="440" width="470" height="10" fill="#e30613"/>
+    <polygon points="1130,440 1180,470 1180,480 1130,450" fill="#5a0008"/>
+    <line x1="660" y1="455" x2="1130" y2="455" stroke="#00d4ff" stroke-width="0.5" opacity="0.6"/>
+  </g>
+
+  <!-- CAB - S 540 HIGHLINE (taller cab) -->
+  <g>
+    <!-- Highline roof extends taller -->
+    <polygon points="290,200 600,200 640,240 330,240" fill="url(#cabHiRoof)"/>
+    <polygon points="330,240 640,240 640,530 330,530" fill="url(#cabHi)"/>
+    <polygon points="640,240 690,275 690,510 640,530" fill="url(#cabHiSide)"/>
+    <line x1="640" y1="240" x2="640" y2="530" stroke="#000" stroke-width="1"/>
+
+    <!-- roof spoiler with neon stripe -->
+    <polygon points="320,210 615,210 615,225 320,225" fill="#0a2a55"/>
+    <line x1="320" y1="217" x2="615" y2="217" stroke="#00d4ff" stroke-width="1.5" filter="url(#neonGlow)"/>
+
+    <!-- top sleeper area window -->
+    <polygon points="365,255 615,255 615,290 365,290" fill="url(#windS)" opacity="0.85"/>
+
+    <!-- windshield -->
+    <polygon points="350,300 620,300 630,400 360,400" fill="url(#windS)"/>
+    <polygon points="360,308 470,308 420,395 360,395" fill="#ffffff" opacity="0.12"/>
+    <line x1="490" y1="300" x2="490" y2="400" stroke="#001020" stroke-width="1.5"/>
+
+    <!-- side window -->
+    <polygon points="640,300 685,330 685,400 640,400" fill="url(#windS)" opacity="0.9"/>
+
+    <!-- door -->
+    <line x1="490" y1="400" x2="490" y2="530" stroke="#000" stroke-width="1"/>
+    <line x1="350" y1="430" x2="640" y2="430" stroke="#000" stroke-width="0.5"/>
+
+    <!-- side neon accent line -->
+    <line x1="330" y1="408" x2="640" y2="408" stroke="#00d4ff" stroke-width="1.5" filter="url(#neonGlow)" opacity="0.9"/>
+    <line x1="640" y1="408" x2="690" y2="440" stroke="#00d4ff" stroke-width="1.5" filter="url(#neonGlow)" opacity="0.7"/>
+
+    <!-- red scania stripe -->
+    <rect x="330" y="412" width="310" height="6" fill="#e30613"/>
+    <polygon points="640,412 690,444 690,450 640,418" fill="#e30613"/>
+
+    <!-- side S540 badge -->
+    <g transform="translate(360,440)">
+      <rect x="0" y="0" width="80" height="28" rx="3" fill="#000814" stroke="#00d4ff" stroke-width="1"/>
+      <text x="40" y="19" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="13" font-weight="900" fill="#00d4ff" letter-spacing="2">S 540</text>
+    </g>
+
+    <!-- grille -->
+    <rect x="340" y="475" width="290" height="50" fill="#000814"/>
+    <g stroke="#163f7f" stroke-width="0.7">
+      <line x1="340" y1="485" x2="630" y2="485"/>
+      <line x1="340" y1="495" x2="630" y2="495"/>
+      <line x1="340" y1="505" x2="630" y2="505"/>
+      <line x1="340" y1="515" x2="630" y2="515"/>
+    </g>
+    <g stroke="#00d4ff" stroke-width="0.5" stroke-opacity="0.5">
+      <line x1="340" y1="490" x2="630" y2="490"/>
+      <line x1="340" y1="510" x2="630" y2="510"/>
+    </g>
+    <rect x="455" y="488" width="60" height="14" rx="2" fill="#000814" stroke="#00d4ff" stroke-opacity="0.7"/>
+    <text x="485" y="499" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="900" fill="#fff" letter-spacing="1.5">SCANIA</text>
+
+    <!-- bumper with neon -->
+    <rect x="330" y="525" width="310" height="35" fill="#000814"/>
+    <polygon points="640,525 690,510 690,545 640,560" fill="#000408"/>
+    <line x1="335" y1="535" x2="635" y2="535" stroke="#00d4ff" stroke-width="1.2" filter="url(#neonGlow)" opacity="0.9"/>
+
+    <!-- headlights C-shape LED -->
+    <g filter="url(#softGlowS)">
+      <ellipse cx="370" cy="465" rx="22" ry="10" fill="url(#headS)"/>
+      <ellipse cx="600" cy="465" rx="22" ry="10" fill="url(#headS)"/>
+    </g>
+    <ellipse cx="370" cy="465" rx="12" ry="5" fill="#ffffff"/>
+    <ellipse cx="600" cy="465" rx="12" ry="5" fill="#ffffff"/>
+    <!-- DRL C shape -->
+    <path d="M 345,452 Q 355,452 360,460" stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#neonGlow)"/>
+    <path d="M 575,452 Q 585,452 590,460" stroke="#00d4ff" stroke-width="2" fill="none" filter="url(#neonGlow)"/>
+
+    <!-- roof lights cyan -->
+    <g filter="url(#neonGlow)">
+      <circle cx="400" cy="215" r="3" fill="#00d4ff"/>
+      <circle cx="460" cy="215" r="3" fill="#00d4ff"/>
+      <circle cx="520" cy="215" r="3" fill="#00d4ff"/>
+      <circle cx="580" cy="215" r="3" fill="#00d4ff"/>
+    </g>
+
+    <!-- mirror -->
+    <rect x="305" y="310" width="15" height="50" fill="#031733" stroke="#0a2a55"/>
+    <line x1="320" y1="325" x2="345" y2="318" stroke="#031733" stroke-width="2"/>
+
+    <!-- chrome exhaust -->
+    <rect x="660" y="230" width="14" height="105" fill="#3a4658" stroke="#1a2230"/>
+    <ellipse cx="667" cy="230" rx="7" ry="3" fill="#1a2230"/>
+    <line x1="660" y1="270" x2="674" y2="270" stroke="#00d4ff" stroke-width="0.8" opacity="0.6"/>
+  </g>
+
+  <!-- TIRES with cyan accent rims -->
+  <g>
+    <ellipse cx="420" cy="585" rx="46" ry="18" fill="url(#tireS)"/>
+    <ellipse cx="420" cy="582" rx="30" ry="11" fill="url(#rimS)"/>
+    <circle cx="420" cy="582" r="4" fill="#000"/>
+    <ellipse cx="555" cy="585" rx="46" ry="18" fill="url(#tireS)"/>
+    <ellipse cx="555" cy="582" rx="30" ry="11" fill="url(#rimS)"/>
+    <circle cx="555" cy="582" r="4" fill="#000"/>
+    <ellipse cx="780" cy="585" rx="46" ry="18" fill="url(#tireS)"/>
+    <ellipse cx="780" cy="582" rx="30" ry="11" fill="url(#rimS)"/>
+    <circle cx="780" cy="582" r="4" fill="#000"/>
+    <ellipse cx="900" cy="585" rx="46" ry="18" fill="url(#tireS)"/>
+    <ellipse cx="900" cy="582" rx="30" ry="11" fill="url(#rimS)"/>
+    <circle cx="900" cy="582" r="4" fill="#000"/>
+    <ellipse cx="1020" cy="585" rx="46" ry="18" fill="url(#tireS)"/>
+    <ellipse cx="1020" cy="582" rx="30" ry="11" fill="url(#rimS)"/>
+    <circle cx="1020" cy="582" r="4" fill="#000"/>
+  </g>
+
+  <!-- chassis with neon underglow -->
+  <rect x="340" y="560" width="800" height="6" fill="#000408"/>
+  <rect x="340" y="566" width="800" height="3" fill="url(#neonLine)" filter="url(#neonGlow)"/>
+
+  <!-- ground reflection -->
+  <g opacity="0.18">
+    <polygon points="660,600 1130,600 1130,640 660,640" fill="#003478"/>
+    <polygon points="330,600 640,600 640,640 330,640" fill="#0a2a55"/>
+  </g>
+
+  <!-- corner badge -->
+  <g transform="translate(40,40)">
+    <rect x="0" y="0" width="180" height="52" rx="4" fill="#000814" stroke="#00d4ff" stroke-opacity="0.8"/>
+    <text x="14" y="22" font-family="Arial, sans-serif" font-size="11" font-weight="700" fill="#00d4ff" letter-spacing="3">SCANIA HIGHLINE</text>
+    <text x="14" y="42" font-family="Arial Black, sans-serif" font-size="16" font-weight="900" fill="#fff" letter-spacing="2">S 540</text>
+  </g>
+
+  <g fill="#00d4ff" opacity="0.5">
+    <circle cx="100" cy="100" r="1.3"/>
+    <circle cx="1100" cy="120" r="1.4"/>
+    <circle cx="1150" cy="60" r="1"/>
+    <circle cx="200" cy="60" r="1"/>
+    <circle cx="80" cy="450" r="1.2"/>
+    <circle cx="1130" cy="380" r="1.2"/>
+  </g>
+</svg>
