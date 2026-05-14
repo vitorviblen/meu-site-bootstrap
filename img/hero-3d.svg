@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" width="1600" height="700" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Caminhao Scania em perspectiva 3/4 frontal com farois acesos">
+  <defs>
+    <radialGradient id="bgRad" cx="50%" cy="55%" r="75%">
+      <stop offset="0%" stop-color="#0a1a2f"/>
+      <stop offset="55%" stop-color="#050a18"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </radialGradient>
+    <linearGradient id="floorGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#001a33" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="cabFront" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e3b6f"/>
+      <stop offset="45%" stop-color="#0a2a55"/>
+      <stop offset="100%" stop-color="#031024"/>
+    </linearGradient>
+    <linearGradient id="cabSide" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#08254a"/>
+      <stop offset="60%" stop-color="#0e3b6f"/>
+      <stop offset="100%" stop-color="#163f7f"/>
+    </linearGradient>
+    <linearGradient id="windshield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#001428"/>
+      <stop offset="50%" stop-color="#00405f"/>
+      <stop offset="100%" stop-color="#0086b8"/>
+    </linearGradient>
+    <linearGradient id="grilleGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0f1a"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="bumperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1f2a"/>
+      <stop offset="100%" stop-color="#05070d"/>
+    </linearGradient>
+    <radialGradient id="headBeam" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="25%" stop-color="#bff2ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#00d4ff" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#003478" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="headCore" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#ddf6ff"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="tireGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2f3a"/>
+      <stop offset="50%" stop-color="#0a0c12"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+    <linearGradient id="rimGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bcd4e6"/>
+      <stop offset="50%" stop-color="#5a6c80"/>
+      <stop offset="100%" stop-color="#1a2230"/>
+    </linearGradient>
+    <linearGradient id="hoodHighlight" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00d4ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00d4ff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00d4ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadowBlur"><feGaussianBlur stdDeviation="18"/></filter>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset="60%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0.85"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1600" height="700" fill="url(#bgRad)"/>
+
+  <g stroke="#00d4ff" stroke-opacity="0.08" fill="none">
+    <circle cx="800" cy="420" r="120"/>
+    <circle cx="800" cy="420" r="240"/>
+    <circle cx="800" cy="420" r="380"/>
+    <circle cx="800" cy="420" r="540"/>
+    <circle cx="800" cy="420" r="720"/>
+  </g>
+  <g stroke="#00d4ff" stroke-opacity="0.07">
+    <line x1="800" y1="420" x2="0" y2="0"/>
+    <line x1="800" y1="420" x2="1600" y2="0"/>
+    <line x1="800" y1="420" x2="0" y2="700"/>
+    <line x1="800" y1="420" x2="1600" y2="700"/>
+    <line x1="800" y1="420" x2="0" y2="420"/>
+    <line x1="800" y1="420" x2="1600" y2="420"/>
+    <line x1="800" y1="420" x2="800" y2="0"/>
+  </g>
+  <rect x="0" y="430" width="1600" height="270" fill="url(#floorGrad)"/>
+  <g stroke="#00d4ff" stroke-opacity="0.12">
+    <line x1="0" y1="700" x2="730" y2="430"/>
+    <line x1="200" y1="700" x2="760" y2="430"/>
+    <line x1="500" y1="700" x2="790" y2="430"/>
+    <line x1="800" y1="700" x2="800" y2="430"/>
+    <line x1="1100" y1="700" x2="810" y2="430"/>
+    <line x1="1400" y1="700" x2="840" y2="430"/>
+    <line x1="1600" y1="700" x2="870" y2="430"/>
+  </g>
+  <g stroke="#00d4ff" stroke-opacity="0.10">
+    <line x1="0" y1="460" x2="1600" y2="460"/>
+    <line x1="0" y1="500" x2="1600" y2="500"/>
+    <line x1="0" y1="560" x2="1600" y2="560"/>
+    <line x1="0" y1="640" x2="1600" y2="640"/>
+  </g>
+
+  <g opacity="0.55" filter="url(#glow)">
+    <polygon points="640,420 -80,700 380,700" fill="url(#headBeam)"/>
+    <polygon points="960,420 1680,700 1220,700" fill="url(#headBeam)"/>
+  </g>
+
+  <ellipse cx="800" cy="600" rx="500" ry="50" fill="#000" opacity="0.85" filter="url(#shadowBlur)"/>
+
+  <g>
+    <polygon points="1080,220 1240,260 1240,560 1080,560" fill="url(#cabSide)"/>
+    <polygon points="1095,245 1225,275 1225,360 1095,360" fill="url(#windshield)" opacity="0.85"/>
+    <line x1="1095" y1="400" x2="1225" y2="425" stroke="#163f7f" stroke-width="1"/>
+    <line x1="1095" y1="460" x2="1225" y2="485" stroke="#163f7f" stroke-width="1"/>
+    <line x1="1095" y1="510" x2="1225" y2="535" stroke="#163f7f" stroke-width="1"/>
+
+    <polygon points="520,200 1080,200 1080,560 520,560" fill="url(#cabFront)"/>
+    <polygon points="520,200 1080,200 1100,225 500,225" fill="#163f7f"/>
+    <polygon points="500,225 1100,225 1095,240 505,240" fill="#0a2a55"/>
+
+    <polygon points="560,240 1040,240 1020,360 580,360" fill="url(#windshield)"/>
+    <polygon points="580,250 700,250 640,355 580,355" fill="#ffffff" opacity="0.10"/>
+    <polygon points="900,250 1020,250 1020,355 950,355" fill="#00d4ff" opacity="0.18"/>
+    <line x1="800" y1="245" x2="800" y2="355" stroke="#001020" stroke-width="2"/>
+
+    <line x1="610" y1="355" x2="720" y2="305" stroke="#1a1f2a" stroke-width="2"/>
+    <line x1="850" y1="355" x2="960" y2="305" stroke="#1a1f2a" stroke-width="2"/>
+
+    <rect x="520" y="370" width="560" height="10" fill="#e30613"/>
+    <rect x="520" y="380" width="560" height="2" fill="#5a0008"/>
+
+    <rect x="560" y="395" width="480" height="110" fill="url(#grilleGrad)"/>
+    <g stroke="#1a2230" stroke-width="1">
+      <line x1="560" y1="410" x2="1040" y2="410"/>
+      <line x1="560" y1="425" x2="1040" y2="425"/>
+      <line x1="560" y1="440" x2="1040" y2="440"/>
+      <line x1="560" y1="455" x2="1040" y2="455"/>
+      <line x1="560" y1="470" x2="1040" y2="470"/>
+      <line x1="560" y1="485" x2="1040" y2="485"/>
+    </g>
+    <g stroke="#00d4ff" stroke-opacity="0.25" stroke-width="0.5">
+      <line x1="560" y1="418" x2="1040" y2="418"/>
+      <line x1="560" y1="448" x2="1040" y2="448"/>
+      <line x1="560" y1="478" x2="1040" y2="478"/>
+    </g>
+    <rect x="760" y="430" width="80" height="22" rx="3" fill="#0a0f1a" stroke="#00d4ff" stroke-opacity="0.5"/>
+    <text x="800" y="447" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="900" fill="#ffffff" letter-spacing="2">SCANIA</text>
+
+    <rect x="500" y="505" width="580" height="60" fill="url(#bumperGrad)"/>
+    <line x1="500" y1="520" x2="1080" y2="520" stroke="#00d4ff" stroke-opacity="0.25" stroke-width="1"/>
+    <rect x="790" y="530" width="20" height="25" fill="#0a0c12" stroke="#5a6c80" stroke-width="1"/>
+
+    <circle cx="580" cy="540" r="12" fill="#00d4ff" opacity="0.6" filter="url(#softGlow)"/>
+    <circle cx="580" cy="540" r="5" fill="#ffffff"/>
+    <circle cx="1020" cy="540" r="12" fill="#00d4ff" opacity="0.6" filter="url(#softGlow)"/>
+    <circle cx="1020" cy="540" r="5" fill="#ffffff"/>
+
+    <rect x="520" y="385" width="560" height="3" fill="url(#hoodHighlight)" opacity="0.8"/>
+
+    <rect x="495" y="260" width="22" height="60" fill="#0a2a55" stroke="#163f7f"/>
+    <line x1="517" y1="270" x2="540" y2="265" stroke="#0a2a55" stroke-width="2"/>
+    <rect x="1083" y="260" width="22" height="60" fill="#0a2a55" stroke="#163f7f"/>
+    <line x1="1083" y1="270" x2="1060" y2="265" stroke="#0a2a55" stroke-width="2"/>
+
+    <g filter="url(#glow)">
+      <ellipse cx="600" cy="430" rx="40" ry="22" fill="url(#headBeam)"/>
+      <ellipse cx="1000" cy="430" rx="40" ry="22" fill="url(#headBeam)"/>
+    </g>
+    <ellipse cx="600" cy="430" rx="26" ry="14" fill="url(#headCore)"/>
+    <ellipse cx="1000" cy="430" rx="26" ry="14" fill="url(#headCore)"/>
+    <ellipse cx="600" cy="430" rx="12" ry="6" fill="#ffffff"/>
+    <ellipse cx="1000" cy="430" rx="12" ry="6" fill="#ffffff"/>
+
+    <g filter="url(#softGlow)">
+      <circle cx="600" cy="215" r="4" fill="#ff9900"/>
+      <circle cx="700" cy="215" r="4" fill="#ff9900"/>
+      <circle cx="800" cy="215" r="4" fill="#ff9900"/>
+      <circle cx="900" cy="215" r="4" fill="#ff9900"/>
+      <circle cx="1000" cy="215" r="4" fill="#ff9900"/>
+    </g>
+
+    <ellipse cx="600" cy="585" rx="55" ry="22" fill="url(#tireGrad)"/>
+    <ellipse cx="600" cy="582" rx="40" ry="14" fill="url(#rimGrad)"/>
+    <circle cx="600" cy="582" r="6" fill="#0a0c12"/>
+    <ellipse cx="1000" cy="585" rx="55" ry="22" fill="url(#tireGrad)"/>
+    <ellipse cx="1000" cy="582" rx="40" ry="14" fill="url(#rimGrad)"/>
+    <circle cx="1000" cy="582" r="6" fill="#0a0c12"/>
+    <ellipse cx="1180" cy="585" rx="35" ry="15" fill="url(#tireGrad)"/>
+    <ellipse cx="1180" cy="583" rx="22" ry="8" fill="url(#rimGrad)"/>
+  </g>
+
+  <g opacity="0.7" filter="url(#softGlow)">
+    <circle cx="600" cy="430" r="60" fill="#00d4ff" opacity="0.18"/>
+    <circle cx="1000" cy="430" r="60" fill="#00d4ff" opacity="0.18"/>
+  </g>
+
+  <g fill="#00d4ff" opacity="0.45">
+    <circle cx="120" cy="120" r="1.5"/>
+    <circle cx="250" cy="80" r="1"/>
+    <circle cx="380" cy="160" r="1.5"/>
+    <circle cx="1300" cy="100" r="1.2"/>
+    <circle cx="1450" cy="180" r="1.5"/>
+    <circle cx="1520" cy="60" r="1"/>
+    <circle cx="80" cy="320" r="1"/>
+    <circle cx="1540" cy="340" r="1.2"/>
+  </g>
+
+  <rect width="1600" height="700" fill="url(#vignette)"/>
+</svg>

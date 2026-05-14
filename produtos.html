@@ -7,16 +7,10 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-  >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,25 +18,17 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark menu-principal sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">
-        <i class="bi bi-truck-front-fill"></i> Scania
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-truck-front-fill"></i> SCANIA
       </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="menuNavegacao">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" href="produtos.html">Modelos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato.html">Contato</a>
-          </li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link active" href="produtos.html">Modelos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
         </ul>
       </div>
     </div>
@@ -51,60 +37,61 @@
   <header class="topo">
     <div class="container">
       <span class="badge-line">
-        <i class="bi bi-list-check"></i> Linha completa
+        <i class="bi bi-list-check"></i> Linha 2025
       </span>
-      <h1 class="m-0">Modelos Scania</h1>
-      <p class="m-0">Confira a tabela com os principais modelos disponíveis, categorias e preços de tabela.</p>
+      <h1 class="m-0">Escolha o seu Scania.</h1>
+      <p class="m-0">Do médio ao extrapesado, cada modelo é configurado para entregar o melhor desempenho na sua operação.</p>
     </div>
   </header>
 
-  <main class="container my-5">
-    <section class="reveal">
+  <main>
+    <section class="container reveal">
+      <span class="eyebrow">Disponibilidade</span>
       <h2 class="titulo-secao mb-2">Tabela de modelos</h2>
-      <p class="subtitulo">Selecione o caminhão ideal para sua operação — do segmento médio ao extrapesado.</p>
+      <p class="subtitulo">Configurações, preços de tabela e estoque atualizado da nossa linha de caminhões.</p>
 
       <div class="table-responsive">
         <table class="table table-hover align-middle tabela-personalizada mb-0">
           <thead>
             <tr>
-              <th scope="col">Código</th>
-              <th scope="col">Modelo</th>
-              <th scope="col">Categoria</th>
-              <th scope="col">Preço</th>
-              <th scope="col">Estoque</th>
+              <th>Código</th>
+              <th>Modelo</th>
+              <th>Categoria</th>
+              <th>Preço</th>
+              <th>Estoque</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>001</td>
+              <td>R450</td>
               <td>Scania R 450</td>
               <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 720.000,00</td>
               <td><span class="estoque-pill">8 unid.</span></td>
             </tr>
             <tr>
-              <td>002</td>
+              <td>S540</td>
               <td>Scania S 540</td>
               <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 890.000,00</td>
               <td><span class="estoque-pill baixo">4 unid.</span></td>
             </tr>
             <tr>
-              <td>003</td>
+              <td>G410</td>
               <td>Scania G 410</td>
               <td><span class="badge-categoria semi">Semipesado</span></td>
               <td>R$ 620.000,00</td>
               <td><span class="estoque-pill">11 unid.</span></td>
             </tr>
             <tr>
-              <td>004</td>
+              <td>P320</td>
               <td>Scania P 320</td>
               <td><span class="badge-categoria medio">Médio</span></td>
               <td>R$ 480.000,00</td>
               <td><span class="estoque-pill">15 unid.</span></td>
             </tr>
             <tr>
-              <td>005</td>
+              <td>R500</td>
               <td>Scania R 500</td>
               <td><span class="badge-categoria extra">Extrapesado</span></td>
               <td>R$ 815.000,00</td>
@@ -120,13 +107,13 @@
     <div class="container">
       <div class="row g-4 pb-3">
         <div class="col-md-5">
-          <h6><i class="bi bi-truck-front-fill text-warning"></i> Scania Caminhões</h6>
+          <h6><i class="bi bi-truck-front-fill" style="color: var(--accent);"></i> Scania Caminhões</h6>
           <p class="small">Há mais de um século movendo o mundo com caminhões que entregam performance, segurança e baixo custo operacional.</p>
           <div class="social mt-3">
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
           </div>
         </div>
         <div class="col-6 col-md-3">

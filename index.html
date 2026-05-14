@@ -3,20 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scania Caminhões</title>
+  <title>Scania Caminhões — Potência sueca</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-  <link
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-    rel="stylesheet"
-  >
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
-  >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,25 +18,17 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark menu-principal sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">
-        <i class="bi bi-truck-front-fill"></i> Scania
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-truck-front-fill"></i> SCANIA
       </a>
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="menuNavegacao" aria-expanded="false" aria-label="Alternar navegação">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="menuNavegacao">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="produtos.html">Modelos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato.html">Contato</a>
-          </li>
+          <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
+          <li class="nav-item"><a class="nav-link" href="produtos.html">Modelos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
         </ul>
       </div>
     </div>
@@ -50,129 +36,152 @@
 
   <header class="topo">
     <div class="container">
-      <span class="badge-line">
-        <i class="bi bi-stars"></i> Tradição sueca desde 1891
-      </span>
-      <h1 class="m-0">Scania Caminhões</h1>
-      <p class="m-0">Potência, eficiência e tecnologia para o transporte pesado em qualquer estrada do Brasil.</p>
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="badge-line">
+            <i class="bi bi-stars"></i> Tradição sueca desde 1891
+          </span>
+          <h1 class="m-0">Potência que move o mundo.</h1>
+          <p class="m-0">Caminhões Scania combinam engenharia premium, motores V8 lendários e tecnologia conectada para entregar o melhor custo operacional do segmento pesado.</p>
+          <div class="hero-cta">
+            <a href="produtos.html" class="btn btn-primary">
+              Ver modelos <i class="bi bi-arrow-right"></i>
+            </a>
+            <a href="contato.html" class="btn btn-ghost">
+              Solicitar proposta
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main class="container my-5">
+  <main>
 
-    <section class="mb-5 reveal">
+    <!-- STATS -->
+    <section class="container reveal">
+      <div class="row g-3">
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-num">130+</span>
+            <span class="stat-label">Anos de história</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-num">770</span>
+            <span class="stat-label">CV de potência (V8)</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-num">100+</span>
+            <span class="stat-label">Países atendidos</span>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="stat-card">
+            <span class="stat-num">24/7</span>
+            <span class="stat-label">Assistência Scania</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARROSSEL -->
+    <section class="container reveal">
+      <span class="eyebrow">Linha 2025</span>
       <h2 class="titulo-secao mb-2">Nossos caminhões</h2>
-      <p class="subtitulo">Conheça as principais séries da linha Scania, projetadas para diferentes operações.</p>
+      <p class="subtitulo">Conheça as séries que definem o padrão do transporte pesado em performance, segurança e eficiência.</p>
 
-      <div id="carrosselPrincipal" class="carousel slide overflow-hidden" data-bs-ride="carousel">
+      <div id="carrosselPrincipal" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carrosselPrincipal" data-bs-slide-to="2"></button>
         </div>
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="img/truck-r450.svg" class="d-block w-100 imagem-carrossel" alt="Scania R 450">
+            <img src="img/truck-iso-r450.svg" class="d-block w-100 imagem-carrossel" alt="Scania R 450">
             <div class="carousel-caption d-none d-md-block">
               <h5>Scania R 450</h5>
               <p>Robustez e conforto para longas distâncias.</p>
             </div>
           </div>
-
           <div class="carousel-item">
-            <img src="img/truck-v8.svg" class="d-block w-100 imagem-carrossel" alt="Scania com motor V8">
+            <img src="img/truck-iso-v8.svg" class="d-block w-100 imagem-carrossel" alt="Motor V8 Scania">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Motor V8 Scania</h5>
+              <h5>V8 Power</h5>
               <p>O ícone da potência sueca em transporte pesado.</p>
             </div>
           </div>
-
           <div class="carousel-item">
-            <img src="img/truck-r500.svg" class="d-block w-100 imagem-carrossel" alt="Scania R 500">
+            <img src="img/truck-highline.svg" class="d-block w-100 imagem-carrossel" alt="Scania S 540">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Scania R 500</h5>
-              <p>Versatilidade para qualquer tipo de operação.</p>
+              <h5>Scania S 540</h5>
+              <p>Cabine Highline com o que há de mais avançado em tecnologia.</p>
             </div>
           </div>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
+          <span class="carousel-control-prev-icon"></span>
         </button>
-
         <button class="carousel-control-next" type="button" data-bs-target="#carrosselPrincipal" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
+          <span class="carousel-control-next-icon"></span>
         </button>
       </div>
     </section>
 
-    <section class="reveal">
-      <h2 class="titulo-secao mb-2">Galeria</h2>
-      <p class="subtitulo">Detalhes que mostram por que a Scania é referência mundial em caminhões pesados.</p>
+    <div class="divider-neon"></div>
 
-      <div class="row g-4">
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-highline.svg" alt="Cabine Scania Highline">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Cabines Highline para máximo conforto.</figcaption>
-          </figure>
-        </div>
+    <!-- BENTO GALERIA -->
+    <section class="container reveal">
+      <span class="eyebrow">Galeria</span>
+      <h2 class="titulo-secao mb-2">Por que Scania.</h2>
+      <p class="subtitulo">Cinco motivos que fazem da marca a referência mundial em caminhões pesados.</p>
 
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-freshlinc.svg" alt="Scania R 450 FreshLinc">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Motores de alta performance e baixo consumo.</figcaption>
-          </figure>
-        </div>
+      <div class="bento-grid">
+        <figure class="card-galeria bento-item">
+          <div class="img-wrap">
+            <img src="img/truck-iso-r450.svg" alt="Cabine Scania">
+            <div class="overlay"><span>Conforto premium <i class="bi bi-arrow-right"></i></span></div>
+          </div>
+          <figcaption>Cabines Highline com ergonomia de jato</figcaption>
+        </figure>
 
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-hagoort.svg" alt="Scania Hagoort Transport">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Tecnologia embarcada de última geração.</figcaption>
-          </figure>
-        </div>
+        <figure class="card-galeria bento-item">
+          <div class="img-wrap">
+            <img src="img/truck-iso-v8.svg" alt="Motor V8">
+            <div class="overlay"><span>Engenharia V8 <i class="bi bi-arrow-right"></i></span></div>
+          </div>
+          <figcaption>Motor V8 — até 770 CV de torque</figcaption>
+        </figure>
 
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-kloos.svg" alt="Scania R 450 Kloos">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Soluções para transporte rodoviário.</figcaption>
-          </figure>
-        </div>
+        <figure class="card-galeria bento-item">
+          <div class="img-wrap">
+            <img src="img/truck-highline.svg" alt="Scania conectada">
+            <div class="overlay"><span>Saiba mais <i class="bi bi-arrow-right"></i></span></div>
+          </div>
+          <figcaption>Telemática Scania conectada</figcaption>
+        </figure>
 
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-streamline.svg" alt="Scania R 450 Streamline">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Caminhões para todos os tipos de carga.</figcaption>
-          </figure>
-        </div>
+        <figure class="card-galeria bento-item">
+          <div class="img-wrap">
+            <img src="img/truck-iso-v8.svg" alt="Scania V8">
+            <div class="overlay"><span>Saiba mais <i class="bi bi-arrow-right"></i></span></div>
+          </div>
+          <figcaption>Baixo custo operacional</figcaption>
+        </figure>
 
-        <div class="col-sm-6 col-lg-4">
-          <figure class="card-galeria">
-            <div class="img-wrap">
-              <img src="img/truck-classic.svg" alt="Scania L81 clássico">
-              <div class="overlay"><span>Ver detalhes <i class="bi bi-arrow-right"></i></span></div>
-            </div>
-            <figcaption>Tradição sueca em qualidade e durabilidade.</figcaption>
-          </figure>
-        </div>
+        <figure class="card-galeria bento-item">
+          <div class="img-wrap">
+            <img src="img/truck-iso-r450.svg" alt="Rede Scania">
+            <div class="overlay"><span>Saiba mais <i class="bi bi-arrow-right"></i></span></div>
+          </div>
+          <figcaption>Rede global de assistência</figcaption>
+        </figure>
       </div>
     </section>
 
@@ -182,13 +191,13 @@
     <div class="container">
       <div class="row g-4 pb-3">
         <div class="col-md-5">
-          <h6><i class="bi bi-truck-front-fill text-warning"></i> Scania Caminhões</h6>
+          <h6><i class="bi bi-truck-front-fill" style="color: var(--accent);"></i> Scania Caminhões</h6>
           <p class="small">Há mais de um século movendo o mundo com caminhões que entregam performance, segurança e baixo custo operacional.</p>
           <div class="social mt-3">
-            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+            <a href="#"><i class="bi bi-linkedin"></i></a>
+            <a href="#"><i class="bi bi-youtube"></i></a>
           </div>
         </div>
         <div class="col-6 col-md-3">
