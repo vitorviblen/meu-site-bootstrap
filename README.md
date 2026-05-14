@@ -1,14 +1,12 @@
-# Meu Site Bootstrap
+# Site Scania Caminhões
 
-Site didático construído com HTML, CSS e Bootstrap 5 como introdução à biblioteca. Projeto desenvolvido a partir de um roteiro de aula.
-
-**Demo ao vivo:** https://vitorviblen.github.io/meu-site-bootstrap/
+Site institucional da Scania Caminhões construído com HTML, CSS e Bootstrap 5.
 
 ## Páginas
 
-- **`index.html`** — Carrossel de imagens + galeria de fotos com efeito hover
-- **`produtos.html`** — Tabela responsiva com listras e destaque ao passar o mouse
-- **`contato.html`** — Formulário com inputs, select, textarea e checkbox
+- **`index.html`** — Carrossel com modelos da linha Scania + galeria de fotos
+- **`produtos.html`** — Tabela com os modelos disponíveis
+- **`contato.html`** — Formulário para fale conosco
 
 ## Tecnologias
 
@@ -16,7 +14,6 @@ Site didático construído com HTML, CSS e Bootstrap 5 como introdução à bibl
 - CSS3 (gradientes, sombras, transições, media queries)
 - [Bootstrap 5.3.3](https://getbootstrap.com/) via CDN
 - Fonte [Inter](https://fonts.google.com/specimen/Inter) via Google Fonts
-- Imagens placeholder via [picsum.photos](https://picsum.photos)
 
 ## Como rodar localmente
 
@@ -39,10 +36,3 @@ meu-site-bootstrap/
 │   └── style.css
 └── README.md
 ```
-
-## Conceitos abordados
-
-- Grid system do Bootstrap (`container`, `row`, `col-*`)
-- Componentes interativos (navbar, carousel, table, form)
-- Combinação de classes do Bootstrap com CSS próprio
-- Layout responsivo com breakpoints
